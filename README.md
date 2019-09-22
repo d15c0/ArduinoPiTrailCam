@@ -3,7 +3,7 @@ Arduino nano, controlling a Pi0w, and starting a script to capture images...
 
 PINS  
 pi GPIO 26 ---- shutdown ---- Arduino OI 9  
-GPIO 21 ---- Camera Trigger ---- Arduino OI 8   
+pi GPIO 21 ---- Camera Trigger ---- Arduino OI 8   
 Arduino OI 7 - Motion Detect  
 Arduino OI 10 - PWR (goes to shutdown of PowerSupply/Relay/Something)  
                                          
