@@ -1,11 +1,11 @@
 # ARDUpiTRAILcam
 Arduino nano, controlling a Pi0w, and starting a script to capture images...
 
-ON THE Pi                                 ON THE ARDUINO MINI PRO  
-GPIO 26 - shutdown                        OI 9 - shutdown  
-GPIO 21 - Camera Trigger                  OI 8 - Camera Trigger  
-                                          OI 7 - Motion Detect  
-                                          OI 10 - PWR (goes to shutdown of PowerSupply/Relay/Something)  
+PINS  
+pi GPIO 26 ---- shutdown ---- Arduino OI 9  
+GPIO 21 ---- Camera Trigger ---- Arduino OI 8   
+Arduino OI 7 - Motion Detect  
+Arduino OI 10 - PWR (goes to shutdown of PowerSupply/Relay/Something)  
                                          
 Motion currently provided by RCWL-0516  
 
